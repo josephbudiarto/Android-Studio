@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amuze_red"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/bottom_margin">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Judul Museum"
+        android:textSize="30sp"
+        android:textColor="@color/amuze_white"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/description_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum\nDeskripsi Museum \nyang cukup panjang untuk testing di awal loading page.\nApakah deskripsi tertutup oleh gambar atau tidak. Testing 1 sampai 10 satu dua tiga empat lima enam tujuh delapan sembilan sepuluh"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/amuze_white" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/museum_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="3"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open musia"
+        android:onClick="openMusia"
+        android:id="@+id/openMusia" />
+
+
+</LinearLayout><!-- From: file:/C:/Users/Private/Desktop/Dekstop/Desktop%201%20Des/Manpro/Amuze/android/res/layout/fragment_general.xml -->

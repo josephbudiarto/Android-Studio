@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-879f55e0ee71d590e13f47a85d5026dcb57603b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\classes-35cd14d954a56d16a8d296d031959af8168ef235.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\libs\zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0a7b88ba1496a0b4af76069ad40dacd3897149e0">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\zbar-b80930ae7f3446cdc00ffdf3c5978e22b1c71f3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ed8779974636b86ff62de2b7b35fb8e346e122a">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\core-1.0-8003a24bbc62da7865f2056c7b7d39196b774932.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\classes-739ac5fe2587bea2eeda708d6fb365d3b4ee7a8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\classes-16ed4aa5e8598f2474c838af44805fe49c4e3a93.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.7.1\fd23897393900f8f888222795e3229eff600fb3d\gdx-box2d-1.7.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fd23897393900f8f888222795e3229eff600fb3d">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.7.1-29c47f9101c1c714192acb0fed8506423b44fb79.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.7.1\2179cc613447c297623a4a6d2ba6692c3aaff804\gdx-1.7.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2179cc613447c297623a4a6d2ba6692c3aaff804">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\gdx-1.7.1-89d798bb44b9087291fa5405b4a726229df45f95.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.7.1\454871d4783564f17959bf9247660e7f56ecc4ab\gdx-backend-android-1.7.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="454871d4783564f17959bf9247660e7f56ecc4ab">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.7.1-95ba56dbd19f42d4e35dd2f317b4157b8c7a2015.jar" />
+    </item>
+    <item
+        jar="C:\Users\agust\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\agust\Desktop\Kuliah\Mobdev\Amuze\android\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-8e8bef4d6ed12fd27ebd0c57e86466952f7f9d7d.jar" />
+    </item>
+
+</items>

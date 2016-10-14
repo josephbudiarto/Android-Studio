@@ -1,0 +1,52 @@
+<resources>
+
+    <style name="GdxTheme" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="actionBarStyle">@style/ActionBarLogo</item>
+    </style>
+    <style name="ActionBarLogo">
+        <item name="background">@color/colorPrimary</item>
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+    <style name="ActionBarLogo2">
+        <item name="background">@color/colorPrimary</item>
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="displayOptions">useLogo|showHome|showTitle|homeAsUp</item>
+    </style>
+    <style name="AppTheme.Home">
+        <item name="actionBarStyle">@style/ActionBarLogo</item>
+    </style>
+    <style name="AppTheme.Amuze">
+        <item name="actionBarStyle">@style/ActionBarLogo2</item>
+
+        <!--
+        <item name="windowActionBar">false</item>
+        -->
+    </style>
+    <!--
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

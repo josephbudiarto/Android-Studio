@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amuze_red"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/bottom_margin">
+    <!--android:paddingTop="?attr/actionBarSize"-->
+    <!--<ImageButton
+        android:id="@+id/button_silhouette"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="#700"
+        android:scaleType="fitCenter"
+        android:src="@drawable/silhouette" />-->
+
+    <ImageButton
+        android:id="@+id/button_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="#700"
+        android:scaleType="fitCenter"
+        android:src="@drawable/quiz" />
+
+    <ImageButton
+        android:id="@+id/button_puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="#700"
+        android:scaleType="fitCenter"
+        android:src="@drawable/puzzle" />
+
+
+</LinearLayout>

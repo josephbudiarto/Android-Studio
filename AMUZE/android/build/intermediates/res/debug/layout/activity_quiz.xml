@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="Quiz Game"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:id="@+id/warning_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jawab seluruh quiz dengan benar untuk memperoleh Gold\n\nJawaban yang salah akan menyebabkan keluar dari game dan progress sejauh ini akan hilang."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/notification_large_icon_height"
+                android:layout_gravity="center"
+                android:onClick="play"
+                android:text="PLAY"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/question_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soal quiz "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jawaban 1"
+                    android:onClick="quizRadioButton"/>
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jawaban 2"
+                    android:onClick="quizRadioButton"/>
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jawaban 3"
+                    android:onClick="quizRadioButton"/>
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jawaban 4"
+                    android:onClick="quizRadioButton"/>
+                <RadioButton
+                    android:id="@+id/radio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jawaban 5"
+                    android:onClick="quizRadioButton"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/item_toggleFav"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/notification_large_icon_height"
+                android:layout_gravity="center"
+                android:onClick="send"
+                android:text="Answer"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/agust/Desktop/Kuliah/Mobdev/Amuze/android/res/layout/activity_quiz.xml -->

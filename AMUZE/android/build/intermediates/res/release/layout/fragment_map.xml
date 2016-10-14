@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amuze_red"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/bottom_margin">
+    <!--android:paddingTop="?attr/actionBarSize"-->
+    <!--
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testButton"
+        android:text="Test" />
+    -->
+    <ListView
+        android:id="@+id/listview_map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="10"
+        android:choiceMode="singleChoice"
+        android:elevation="6dp" />
+</LinearLayout><!-- From: file:/C:/Users/Private/Desktop/Dekstop/Desktop%201%20Des/Manpro/Amuze/android/res/layout/fragment_map.xml -->

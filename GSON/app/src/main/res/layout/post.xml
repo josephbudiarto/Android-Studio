@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/post_thumbnail"
+        android:src="@drawable/ic_menu_camera"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:id="@+id/post_title"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/post_thumbnail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author Name"
+        android:id="@+id/post_author"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/post_title"
+        android:layout_alignLeft="@+id/post_title"
+        android:layout_alignStart="@+id/post_title"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/post_date"
+        android:layout_marginRight="8dp"
+        android:layout_alignTop="@+id/post_author"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/post_id"
+        android:layout_marginRight="8dp"
+        android:layout_alignTop="@+id/post_author"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toLeftOf="@id/post_date"
+        android:visibility="gone"/>
+</RelativeLayout>

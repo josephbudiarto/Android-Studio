@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.petra.informatika.amuze.android"
+    android:versionCode="2"
+    android:versionName="2.0">
+    <!-- This permission is necessary in order for Museum to perform network access. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permissions required by the sync adapter -->
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <!--
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+
+        <activity
+            android:name=".MainActivity"
+
+            android:theme="@style/AppTheme.Home"
+            android:windowSoftInputMode="adjustPan|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity
+            android:name=".FragmentActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.Amuze">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        -->
+        <activity
+            android:name=".FragmentActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".ItemActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".game.SilhouetteList"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".game.SilhouetteGame"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".game.PuzzleList"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".game.PuzzleActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/GdxTheme">
+        </activity>
+        <activity
+            android:name=".game.QuizList"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <activity
+            android:name=".game.QuizGame"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Amuze">
+        </activity>
+        <!-- content authority ada strings.xml, MuseumContract.java dan AndroidManifest.xml -->
+        <provider
+            android:name=".data.MuseumProvider"
+            android:authorities="id.ac.petra.informatika.amuze.android"
+            android:exported="false"
+            android:syncable="true" />
+        <!-- SyncAdapter's dummy authentication service -->
+        <service android:name=".sync.MuseumAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <!-- SyncAdapter service -->
+        <service
+            android:name=".sync.MuseumSyncService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
+        <service android:name=".service.MuseumService" />
+
+    </application>
+
+</manifest>

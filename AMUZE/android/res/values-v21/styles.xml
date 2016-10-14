@@ -1,0 +1,10 @@
+<resources>
+    <style name="AppTheme.Amuze">
+        <item name="windowActionBar">true</item>
+        <item name="actionBarStyle">@style/ActionBarLogo2</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

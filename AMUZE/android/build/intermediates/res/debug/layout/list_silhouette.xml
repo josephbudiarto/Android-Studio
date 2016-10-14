@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_once"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:orientation="horizontal"
+    android:padding="@dimen/appbar_padding_top">
+
+    <ImageView
+        android:id="@+id/list_silhouette_image"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/notification_large_icon_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_silhouette_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Status"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#fff6f0f0" />
+
+        <TextView
+            android:id="@+id/list_silhouette_gold_requirement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Gold requirement"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/amuze_white" />
+
+        <TextView
+            android:id="@+id/list_silhouette_gold_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Gold reward"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/amuze_white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/agust/Desktop/Kuliah/Mobdev/Amuze/android/res/layout/list_silhouette.xml -->

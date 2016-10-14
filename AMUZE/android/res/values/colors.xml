@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b50101</color>
+    <color name="colorPrimaryDark">#700000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="amuze_white">#F6F0F0</color>
+    <color name="amuze_light">#ffaaaa</color>
+    <color name="amuze_normal">#ff4241</color>
+    <color name="amuze_dark">#D188D1</color>
+    <color name="amuze_red">#700</color>
+</resources>
